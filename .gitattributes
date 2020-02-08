@@ -1,4 +1,1 @@
-*.python linguist-detectable=true  
-*.html linguist-detectable=false  
-*.css linguist-detectable=false  
-*.csv linguist-detectable=false  
+*.pbxproj binary merge=union
