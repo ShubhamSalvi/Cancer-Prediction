@@ -59,10 +59,10 @@ def breastcancer():
 		example = example.transpose()
 		pred=knn.predict(example)[0]
 		if pred == 1:
-			return redirect(url_for('output2'))
+			return redirect(url_for('output21'))
 		
 		else:
-			return render_template('output21.html',b='U dont have Breast cancer',c=a)
+			return render_template('output2.html',b='U dont have Breast cancer',c=a)
 	return render_template('breastcancer.html')
 
 
